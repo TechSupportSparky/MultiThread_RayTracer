@@ -11,7 +11,7 @@ This project was originally uploaded as just an x86 project with debug/release s
 
 # Renders
 
-This was the final render utilizing a sample size of 10,000 (vectors per px), and a max bounce of 50:
+This was the final render utilizing a sample size of 10,000 (vectors per px), and a max bounce of 50.  This was a showcase of all features learned thus far for lambertian, metallic, dielectric, and diffuse materials.  Constant medium isotropic fog to cover the scene as well as its interactions with light.  Reflective, refractive, and absorption of color data.  Texture wrapping on a spherical shape with dynamic scaling.  As well as a Bounding Volume Hierarchy to speedup runtime: 
 ![FinalRender](https://github.com/TechSupportSparky/RayTracing/assets/39195543/90580999-0de1-49ef-a880-4c41f517b7c3)
 
 This image was with a very low sample size and bounce for a fairly quick write speed (<5 minutes).  Metallic and lambertian objects reflect the correct amount and a depth of field effect is applied to objects far away:
